@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <script src="index.js"></script>
+    <link rel="stylesheet" href="styles.css"">
+  </head>
+  <body>
+    <div class="wrapper">
+      <sp-heading class="mainHeader">Layer Utilities</sp-heading>
+      <sp-divider size="large"></sp-divider>
+
+      <sp-heading class="subHeader">Add Prefix or Suffix</sp-heading>
+      <sp-divider size="medium"></sp-divider>
+      <sp-radio-group name="affixType">
+        <sp-radio value="prefix" size="m" checked>Add Prefix</sp-radio>
+        <sp-radio value="suffix" size="m">Add Suffix</sp-radio>
+      </sp-radio-group>
+      <sp-textfield class="button" placeholder="Add affix here" id="add_affix_text"></sp-textfield>
+      <sp-button id="btnAffix">Add Affix</sp-button>
+      <sp-help-text id="affixWarning" size="m"> </sp-help-text>
+
+      <sp-heading class="subHeader">Rename Layers</sp-heading>
+      <sp-divider size="medium"></sp-divider>
+      <sp-textfield class="renameText" placeholder="Enter name here" id="rename_layer_text"></sp-textfield>
+      <sp-button class="button" id="btnRename">Rename Layer</sp-button>
+      <sp-help-text id="renameWarning" size="m"> </sp-help-text>
+
+      <sp-heading class="subHeader">Search and Replace Names</sp-heading>
+      <sp-divider size="medium"></sp-divider>
+      <sp-textfield class="searchText" placeholder="Enter existing text" id="text_to_remove"></sp-textfield>
+      <sp-textfield class="replaceText" placeholder="Enter new text" id="text_to_add"></sp-textfield>
+      <sp-help-text id="replaceWarning" size="m"> </sp-help-text>
+      <sp-button class="button" id="btnReplace">Search & Replace Layer Names</sp-button>
+
+      <sp-heading class="subHeader">Delete Empty Layers</sp-heading>
+      <sp-divider size="medium"></sp-divider>
+      <sp-button class="button" id="btnSelectEmpty">Select Empty Layers</sp-button>
+      <sp-button class="button" id="btnDeleteEmpty">Delete Empty Layers</sp-button>
+      <sp-heading id="subHeaderSmall" class="layerHeading">Layers to Delete</sp-heading>
+      <sp-divider size="small"></sp-divider>
+      <p class="layerText" id="layerList"> </p>
+    </div>
+  </body>
+</html>

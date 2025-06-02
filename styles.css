@@ -1,0 +1,56 @@
+body {
+  color: white;
+  padding: 0 16px;
+  min-width: 250px;
+}
+sp-textfield {
+  padding: 5px;
+  width: 250px;
+}
+sp-button {
+  margin: 5px;
+}
+sp-help-text {
+  color:crimson;
+  font-weight: bold;
+  font-size: 11px;
+}
+.wrapper {
+  padding: 0 16px;
+  width: 100%;
+  position: absolute;
+  overflow-y: scroll;
+
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+}
+.mainHeader {
+  text-align: center;
+  padding: 10px;
+}
+.subHeader {
+  font-size: medium;
+  padding: 5px;
+}
+.layerText {
+  text-align: center;
+  font-weight: normal;
+  font-size: 14px;
+}
+.layerHeading {
+  text-align: center;
+  font-weight: bold;
+}
+#subHeaderSmall {
+  font-size: 16px;
+}
+#btnDeleteEmpty {
+  margin-left: 45px;
+  margin-top: 10px;
+}
+#btnSelectEmpty {
+  margin-left: 20px;
+  margin-top: 10px;
+}
