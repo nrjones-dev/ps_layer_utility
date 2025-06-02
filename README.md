@@ -1,8 +1,6 @@
 # PS: Layer Utility
 
-![Layer_utility](https://github.com/user-attachments/assets/d1dd5769-7c8a-48a2-b9c4-e3eee13b55ad)
-
-## What is it useful for?
+## What is it?
 
 This is a plugin for Photoshop that allows you to:
 
@@ -10,6 +8,8 @@ This is a plugin for Photoshop that allows you to:
 - Rename all selected layers
 - Search and replace layer names
 - List and delete all empty layers
+
+  ![Layer_utility](https://github.com/user-attachments/assets/d1dd5769-7c8a-48a2-b9c4-e3eee13b55ad)
 
 ## How to use it
 
