@@ -21,10 +21,6 @@ Once a plugin is installed, it can be found in the Plugins dropdown.
 
 Once open, you can use this tool's interface in the same manner as other Photoshop panels, allowing you to resize (within limits), collapse and dock to the side bar.
 
-In order to install this tool, please follow the setup guide for photoshop plugins in **PHOTOSHOP: Plugins**
-
-This Plugin is called: `nrj.layer-utility_PS.ccx`
-
 ## Features
 
 ### Add Suffix or Prefix
@@ -32,8 +28,8 @@ This Plugin is called: `nrj.layer-utility_PS.ccx`
 The first function of this tool is to add either a 'suffix' or 'prefix' of your choosing.
 
 1. First select the radial options for either a suffix or a prefix.
-2. Type in your chosen prefix or suffix. This will be taken literally, so please include some form of separation. I.e. '_' or '-' or simply a space ' '. This should either look like '_OLD' or 'OLD_' for a prefix and suffix respectively.
-3. Select a Layer or Layers.
+2. Type in your chosen prefix or suffix. This will be taken literally, so please include some form of separation. I.e. '_' or '-' or simply a space ' '. This should either look like '_FOO' or 'FOO_' for a prefix and suffix respectively.
+3. Select a Layer/Group or Layers.
 4. Press the 'Add Affix' button.
 
 All selected layers should now have this affix applied.
@@ -42,7 +38,7 @@ All selected layers should now have this affix applied.
 
 This function is to rename all selected layers to the text string entered in this field.
 
-1. Enter a string of text, such as 'BinBags' into the relevant field.
+1. Enter a string of text, such as 'FooBar' into the relevant field.
 2. Select the Group(s) or Layer(s) where you want to replace the name.
 3. Press the 'Rename Layer' button.
 
@@ -52,8 +48,8 @@ All selected layers should now be renamed appropriately.
 
 This function is designed to search through the names of selected layers and/or groups for a specific string of text, if found then it replaces it with another string of text that the user specifies.
 
-1. Enter a string of text into the first field for 'existing text', such as 'OLD'.
-2. Enter a string of text into the second field for 'new text', such as 'NEW'.
+1. Enter a string of text into the first field for 'existing text', such as 'FOO'.
+2. Enter a string of text into the second field for 'new text', such as 'BAR'.
 3. Select all wanted layers/groups.
 4. Click 'Search & Replace Layer Names'
 
